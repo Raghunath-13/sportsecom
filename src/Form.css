@@ -1,0 +1,100 @@
+.formcontainer{
+justify-content: center;
+align-items: center;
+background-color: #f4f4f4;
+border: 1px solid rgb(229, 225, 225);
+height: 400px;
+width: 30%;
+font-family:  'Barlow Condensed', sans-serif    ;
+text-align: center;
+gap: 10px;
+margin-left: 36%;
+/* margin-top: 5%; */
+width: 30%;
+
+
+}
+.heading-r{
+padding-top: 10px;
+}
+
+
+
+input{
+    /* margin-top: 30px; */
+    height: 30px;
+    margin-bottom: 10px;
+    row-gap: 20px;
+    width: 60%;
+}
+.wallpaper-1{
+    background-image: url('./Assetsp/images/elements-bg.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -10px; */
+    position: relative;
+    z-index: -4;
+    text-align: center;
+    
+    
+    
+}
+
+/* .overlay{
+    width: 95%;
+    height: 40vh;
+    background-color:#3b3232;
+    background-size: contain;
+    
+    opacity: 0.77;
+    position: absolute;
+    top: 80px;
+    color: aliceblue;
+    z-index: 1;
+   
+} */
+.login-hero{
+    z-index: 99;
+    color: white;
+    justify-content: center;
+    /* text-align: center; */
+    font-family:'Barlow Condensed', sans-serif  ;
+    font-weight: lighter;
+    align-items: center;
+    padding-top:100px ;
+    
+
+}
+
+
+.forminputs1{
+    flex-direction: column;
+    margin-right: 10%;
+}
+input{
+    border: 2px solid ghostwhite;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.frm-btn{
+    width: 60%;
+    height: 40px;
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight: bold;
+}
+.ui-define{
+    text-align: center  ;
+}
+
+/* label{
+    position: relative;
+    top: -20px;
+} */

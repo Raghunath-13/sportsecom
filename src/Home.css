@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Korolev+Condensed');
+
+@font-face {
+    font-family: "Korolev Condensed W04 Bold";
+    src: url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.eot");
+    src: url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0ca28687efcc1f750df6ba59a72a6911.svg#Korolev Condensed W04 Bold")format("svg");
+}
+
+.greenwall{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assetsp/greenwall.png);
+    background-size: cover;
+}
+
+.hero-player{
+    width: 68%;
+    /* background-color: red; */
+    height: 100vh;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    /* top: 20px; */
+}
+.herocontent{
+    display: flex;
+    /* text-align: center; */
+}
+.heroheadbox{
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    margin-left: 50%;
+    margin-top: 10%;
+    /* font-family: 'Antonio', sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+.heroheadbox h1{
+    font-size: 6vw;
+    /* font-family: 'Unica One', sans-serif; */
+}
+.hero-h1::after{
+content: "";
+position: absolute;
+width: 30%;
+height: 0.7vw;
+bottom: 8;
+background-color: black;
+left: 50.5%;
+animation-name: lineani;
+animation-duration: 5s;
+
+border-radius: 10px ;
+
+
+}
+.herocart-btn{
+    background-color: black;
+    color: white;
+    font-family:  'Barlow Condensed', sans-serif;
+    border: none;
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+}
+.herocart-btn:hover{
+    background-color:#7ad03a ;
+    color: black;
+}
+.basket{
+    background-color: white;
+}
+
+.productitm{
+    background-color: rgb(235, 244, 241);
+    justify-content: center;
+   padding: 20px;
+   /* flex-wrap: wrap; */
+   /* height: 700px; */
+   width: 100%;
+}
+.cartbtn{
+    background-color: black;
+    color: white;
+    font-family:  'Barlow Condensed', sans-serif;
+    border: none;
+    width: 110px;
+    height: 30px;
+    font-size: 1rem; 
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: #7ad03a;
+    display:flexbox;
+    /* flex-wrap: wrap; */
+    
+    
+
+}
+#homesec1{
+    width: 100%;
+    position: relative;
+}
+.sec1{
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    
+    
+}
+#sec1letters{
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    font-size: 1.5vw;
+    font-family: "Korolev Condensed W04 Bold";
+}
+.sec1btn{
+    background-color: black;
+    color: white;
+    font-family:  'Barlow Condensed', sans-serif;
+    border: none;
+    width: 140px;
+    height: 50px;
+    font-size: 1rem;
+}
+#t1img{
+    width: 50%;
+}
+.sec1img{
+    width: 25%;
+}
+@keyframes lineani {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100;
+    }
+}
+
+
+
+@keyframes move {
+    from{
+        left: -20%;
+    }
+    to{
+        left:0%
+    }
+}
